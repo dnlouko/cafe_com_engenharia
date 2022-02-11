@@ -1,6 +1,7 @@
 ---
 - name: Bem Vindos ao Café com Engenharia
   hosts: localhost
+  gather_facts: false
   connection: local
   tasks: 
   - name: Isso eh uma task --- Vou devolver uma mensagem pra voce ok?
