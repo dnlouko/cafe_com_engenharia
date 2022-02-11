@@ -1,6 +1,6 @@
 ---
 - name: Bem Vindos ao Café com Engenharia
-  hosts: all
+  connection: local
   tasks: 
   - name: Isso eh uma task --- Vou devolver uma mensagem pra voce ok?
     ansible.builtin.debug:
