@@ -7,3 +7,6 @@
   - name: Isso eh uma task --- Vou devolver uma mensagem pra voce ok?
     ansible.builtin.debug:
       msg: "Gostaria de entrar para uma xicara de café?"   
+  - name: Segunda task
+    ansible.builtin.debug:
+      msg: "Se não for muito incomodo"
